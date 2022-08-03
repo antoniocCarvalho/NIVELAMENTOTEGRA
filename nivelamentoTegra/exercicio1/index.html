@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> exercicio 01</title>
+    </head>
+    <body>
+        <main>  
+            <form id="formulario">
+                <h1>Insira as informações</h1>
+                <label> Largura do Terreno: </label>
+                <input id="largura" type="number" min="0" step="0.01" placeholder="Largura do Terreno ">
+                
+                <br/><br/>
+
+                <label> Comprimento do Terreno: </label>
+                <input id="comprimento" type="number" min="0" step="0.01" placeholder="Comprimento do Terreno  ">
+                
+                <br/><br/>
+
+                <label> Valor do Metro Quadrado </label>
+                <input id="valor" type="number" min="0" step="0.01" placeholder="Valor do Metro Quadrado">
+
+
+              
+                <br/><br/>
+                <br/><br/>
+
+                <div>
+                    <button id="cancelar" type="button">Cancelar</button>
+                    <button id="salvar"  type="submit">calcular</button>
+                </div>
+                <br/><br/>
+                <p>RESULTADO</p>
+               <h1 id="area"> </h1>
+               <h1 id="preco"> </h1>
+               
+            </form>
+        </main>
+    </body>
+    <script type="module" src="java.js"></script>
+</html>
